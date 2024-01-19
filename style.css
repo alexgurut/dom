@@ -8,12 +8,3 @@ body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.6363795518207283) 100%);
 }
-
-.miClassNameP{
-    color: rgb(79, 81, 76);
-    font-weight: bolder;
-}
-
-.mih3{
-    color: red;
-}

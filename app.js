@@ -1,16 +1,20 @@
-(($)=>{
+(function(){
+
     'use strict'
-    
-    // USO DE CLASSNAME
-    let miClass = $.getElementsByClassName("miClassName").namedItem
-    miClass[0].classList.add("miClassNameP")
 
-    //USO DE BYID
+    const miClase = document.getElementsByClassName("miClassName")
+    miClase[0].setAttribute("style","color:red")
 
-    let porID = $.getElementById("mih3")
-    porID.classList.add("mih3")
-    porID.innerHTML += " nuevo texto"
 
-    console.log("error")
+    let miId = document.getElementById("mih3").style.color = "purple"
 
-})(document)
+    const queryS = document.querySelector(".qSel")
+
+    queryS.innerHTML = " dsds"
+
+    console.log(queryS)
+
+
+
+
+})()
