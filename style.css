@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: azure;
 }
 
 body{
@@ -13,4 +12,8 @@ body{
 .miClassNameP{
     color: rgb(79, 81, 76);
     font-weight: bolder;
+}
+
+.mih3{
+    color: red;
 }

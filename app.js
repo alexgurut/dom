@@ -7,7 +7,10 @@
 
     //USO DE BYID
 
-    let porID = $.getElementById("porId")
-    porID.style.backgroundColor = "red"
+    let porID = $.getElementById("mih3")
+    porID.classList.add("mih3")
+    porID.innerHTML += " nuevo texto"
+
+    console.log("error")
 
 })(document)
